@@ -11,6 +11,7 @@ services:
       - db
     environment:
       - DB_HOST=mongodb://db:27017/posts
+      - EXECUTE_NPM_INSTALL=true  # This triggers npm install in the entrypoint script
 
   db:
     image: mongo:latest
