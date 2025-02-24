@@ -2,7 +2,7 @@ version: '3'
 
 services:
   app:
-    image: haashim-node-website:latest
+    image: haashim1/haashim-node-website:latest
     ports:
       - "3000:3000"
     networks:
